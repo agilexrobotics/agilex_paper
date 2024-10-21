@@ -9,7 +9,7 @@
 [![Project Page](https://img.shields.io/badge/Project_Page-181717?logo=GitHub&logoColor=white)](https://affective-tom-bot.github.io/) : https://affective-tom-bot.github.io/
 
 
-
+![](./assets/0.mp4)
 <video>   
   <source src="assets\0.mp4" type="video/mp4">
 </video>
