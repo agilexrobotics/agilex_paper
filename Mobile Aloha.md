@@ -18,7 +18,7 @@
 
 
 
-<video download="" controls="" autoplay="" loop="" muted="" playsinline="" src="./assets/resources/mobile-aloha.mp4"style="box-sizing: inherit; height: auto; max-width: 100%; border: 1px solid rgb(187, 187, 187); border-radius: 10px; margin: 8.875px;"></video>
+<video download="" controls="" autoplay="" loop="" muted="" playsinline="" src="[./assets/resources/mobile-aloha.mp4](https://mobile-aloha.github.io/resources/mobile-aloha.mp4)"style="box-sizing: inherit; height: auto; max-width: 100%; border: 1px solid rgb(187, 187, 187); border-radius: 10px; margin: 8.875px;"></video>
 
 ## Team
 
