@@ -20,10 +20,10 @@ We propose **AToM-Bot**, a novel task generation and execution framework for pro
 
 ## AToM-Bot
 
-![](assets\fig2.png)
+![](./assets/fig2.png)
 
 Overview of AToM-Bot, a robotic system for identifying and responding to human needs. It integrates human observations and environmental attributes to infer human needs. It then generates tasks for a robot by navigating to objects, manipulating them, and assisting human in daily setting. Due to the requirements of blind peer review, the individuals in the images were anonymized.
 
-![](assets\fig1.png)
+![](./assets/fig1.png)
 
 Website template borrowed from [NeRFies](https://github.com/nerfies/nerfies.github.io) and [VoxPoser](https://voxposer.github.io/).
