@@ -96,3 +96,23 @@ Exploration of unknown scenes before human entry is essential for safety and eff
 ![](./assets/first_fig_large.png)
 
 **[Details](iHero.md)**
+
+
+
+# Optimal Control of Connected Automated Vehicles with Event-Triggered Control Barrier Functions: a Test Bed for Safe Optimal Merging
+
+  ![ubuntu](https://img.shields.io/badge/Device-LIMO%20Serires-blue.svg)
+
+![CobotMagic](https://img.shields.io/badge/Connected%20and%20Automated%20Vehicles%20(CAVs)-orange.svg) ![CobotMagic](https://img.shields.io/badge/Control%20Barrier%20Functions%20(CBFs)-orange.svg)![CobotMagic](https://img.shields.io/badge/QP-orange.svg)
+
+**Hardware device: LIMO**
+
+![](./assets/limo.png)
+
+**Abstract:**
+
+Exploration of unknown scenes before human entry is essential for safety and efficiency in numerous scenarios, e.g., subterranean exploration, reconnaissance, search and rescue missions. Fleets of autonomous robots are particularly suitable for this task, via concurrent exploration, multi-sensory perception and autonomous navigation. Communication however among the robots can be severely restricted to only close-range exchange via ad-hoc networks. Although some recent works have addressed the problem of collaborative exploration under restricted communication, the crucial role of the human operator has been mostly neglected. Indeed, the operator may: (i) require timely update regarding the exploration progress and fleet status; (ii) prioritize certain regions; and (iii) dynamically move within the explored area; To facilitate these requests, this work proposes an interactive human-oriented online coordination framework for collaborative exploration and supervision under scarce communication (iHERO). The robots switch smoothly and optimally among fast exploration, intermittent exchange of map and sensory data, and return to the operator for status update. It is ensured that these requests are fulfilled online interactively with a pre-specified latency. Extensive large-scale human-in-the-loop simulations and hardware experiments are performed over numerous challenging scenes, which signify its performance such as explored area and efficiency, and validate its potential applicability to real-world scenarios.
+
+![](./assets./oc.png)
+
+Details： https://arxiv.org/abs/2306.01871
