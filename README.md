@@ -60,7 +60,7 @@ Imitation learning from human demonstrations has shown impressive performance in
 
 **Hardware device: Cobot S**
 
-![](./assets/cobot s.png)
+![](./assets/cobot S.png)
 
 **Abstract:**
 
