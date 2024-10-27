@@ -83,7 +83,7 @@ We propose **AToM-Bot**, a novel task generation and execution framework for pro
 # iHERO: Interactive Human-oriented Exploration and Supervision Under Scarce Communication
 
 ![ubuntu](https://img.shields.io/badge/Device-LIMO%20Serires-blue.svg)
-![CobotMagic](https://img.shields.io/badge/Collaborative Exploration under Restricted Communication-orange.svg) 
+![CobotMagic](https://img.shields.io/badge/Collaborative%20Exploration%20under%20Restricted%20Communication-orange.svg) 
 
 **Hardware device: LIMO**
 
