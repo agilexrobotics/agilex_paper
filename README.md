@@ -8,7 +8,7 @@ This repository collects the papers published based on AgileX devices, including
 
 **Hardware device: Cobot Magic**
 
-![](./assets/cobot magic.png)
+![](./assets/cobotmagic.png)
 
 **Abstract:**
 
@@ -28,7 +28,7 @@ Effective collaboration of dual-arm robots and their tool use capabilities are i
 
 **Hardware device: Cobot Magic**
 
-![](./assets/cobot magic.png)
+![](./assets/cobotmagic.png)
 
 **Abstract:**
 
@@ -50,7 +50,7 @@ Bimanual manipulation is essential in robotics, yet developing foundation models
 
 **Hardware device: Cobot Magic**
 
-![](./assets/cobot magic.png)
+![](./assets/cobotmagic.png)
 
 **Abstract:**
 
@@ -68,7 +68,7 @@ Imitation learning from human demonstrations has shown impressive performance in
 
 **Hardware device: Cobot S**
 
-![](./assets/cobot S.png)
+![](./assets/cobotS.png)
 
 **Abstract:**
 
@@ -82,7 +82,8 @@ We propose **AToM-Bot**, a novel task generation and execution framework for pro
 
 # iHERO: Interactive Human-oriented Exploration and Supervision Under Scarce Communication
 
-  ![ubuntu](https://img.shields.io/badge/Device-LIMO%20Serires-blue.svg)![CobotMagic](https://img.shields.io/badge/Collaborative Exploration under Restricted Communication-orange.svg) 
+![ubuntu](https://img.shields.io/badge/Device-LIMO%20Serires-blue.svg)
+![CobotMagic](https://img.shields.io/badge/Collaborative Exploration under Restricted Communication-orange.svg) 
 
 **Hardware device: LIMO**
 
