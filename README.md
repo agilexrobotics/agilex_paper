@@ -58,7 +58,7 @@ Imitation learning from human demonstrations has shown impressive performance in
 
 ![](./assets/aloha.png)
 
-**[Details](Mobile Aloha.md)**
+**[Details](MobileAloha.md)**
 
 
 
