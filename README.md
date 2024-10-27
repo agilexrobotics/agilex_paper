@@ -8,6 +8,8 @@ This repository collects the papers published based on AgileX devices, including
 
 **Hardware device: Cobot Magic**
 
+![](./assets/cobot magic.png)
+
 **Abstract:**
 
 Effective collaboration of dual-arm robots and their tool use capabilities are increasingly important areas in the advancement of robotics. These skills play a significant role in expanding robots' ability to operate in diverse real-world environments. However, progress is impeded by the scarcity of specialized training data. This paper introduces RoboTwin, a novel benchmark dataset combining real-world teleoperated data with synthetic data from digital twins, designed for dual-arm robotic scenarios. Using the COBOT Magic platform, we have collected diverse data on tool usage and human-robot interaction. We present a innovative approach to creating digital twins using AI-generated content, transforming 2D images into detailed 3D models. Furthermore, we utilize large language models to generate expert-level training data and task-specific pose sequences oriented toward functionality. Our key contributions are: 1) the RoboTwin benchmark dataset, 2) an efficient real-to-simulation pipeline, and 3) the use of language models for automatic expert-level data generation. These advancements are designed to address the shortage of robotic training data, potentially accelerating the development of more capable and versatile robotic systems for a wide range of real-world applications.
@@ -18,11 +20,15 @@ Effective collaboration of dual-arm robots and their tool use capabilities are i
 
 
 
+
+
 # RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation
 
 ![ubuntu](https://img.shields.io/badge/Device-Cobot%20Magic-blue.svg)  ![CobotMagic](https://img.shields.io/badge/Robotics%20Diffusion%20Transformer-orange.svg)
 
 **Hardware device: Cobot Magic**
+
+![](./assets/cobot magic.png)
 
 **Abstract:**
 
@@ -43,6 +49,8 @@ Bimanual manipulation is essential in robotics, yet developing foundation models
 ![ubuntu](https://img.shields.io/badge/Device-Cobot%20Magic-blue.svg)  ![ubuntu](https://img.shields.io/badge/Device-Tracer-blue.svg)| ![CobotMagic](https://img.shields.io/badge/Embodied%20Intelligence-orange.svg) ![AToM](https://img.shields.io/badge/ACT-orange.svg)
 
 **Hardware device: Cobot Magic**
+
+![](./assets/cobot magic.png)
 
 **Abstract:**
 
@@ -66,7 +74,7 @@ Imitation learning from human demonstrations has shown impressive performance in
 
 We propose **AToM-Bot**, a novel task generation and execution framework for proactive robot-human interaction, which leverages the human mental and physical state inference capabilities of the Vision Language Model (VLM) prompted by the Affective Theory of Mind (AToM). Without requiring explicit commands by humans, AToM-Bot proactively generates and follows feasible tasks to improve general human well-being. When around humans, AToM-Bot first detects current human needs based on inferred human states and observations of the surrounding environment. It then generates tasks to fulfill these needs, taking into account its embodied constraints. We designed 16 daily life scenarios spanning 4 common scenes and tasked the same visual stimulus to 59 human subjects and our robot. We used the similarity between human open-ended answers and robot output, and the human satisfaction scores to metric robot performance. AToM-Bot received high human evaluations in need detection (6.42/7, 91.7%), embodied solution (6.15/7, 87.8%) and task execution (6.17/7, 88.1%). We show that AToM-Bot excels in generating and executing feasible plans to fulfill unspoken human needs.
 
-![](assets\fig2.png)
+![](./assets/fig2.png)
 
 **[Details](AToM-Bot.md)**
 
@@ -77,6 +85,8 @@ We propose **AToM-Bot**, a novel task generation and execution framework for pro
   ![ubuntu](https://img.shields.io/badge/Device-LIMO%20Serires-blue.svg)![CobotMagic](https://img.shields.io/badge/Collaborative Exploration under Restricted Communication-orange.svg) 
 
 **Hardware device: LIMO**
+
+![](./assets/limo.png)
 
 **Abstract:**
 
