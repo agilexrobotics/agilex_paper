@@ -116,3 +116,37 @@ Exploration of unknown scenes before human entry is essential for safety and eff
 ![](./assets/OC.png)
 
 Details： https://arxiv.org/abs/2306.01871
+
+# Seamless Virtual Reality with Integrated Synchronizer and Synthesizer for Autonomous Driving
+
+ ![ubuntu](https://img.shields.io/badge/Device-LIMO%20Serires-blue.svg)| ![CobotMagic](https://img.shields.io/badge/VR-orange.svg)
+
+**Hardware device: LIMO**
+
+![](./assets/limo.png)
+
+**Abstract:**
+
+Virtual reality (VR) is a promising data engine for autonomous driving (AD). However, data fidelity in this paradigm is often degraded by VR inconsistency, for which the existing VR approaches become ineffective, as they ignore the inter-dependency between low-level VR synchronizer designs (i.e., data collector) and high-level VR synthesizer designs (i.e., data processor). This paper presents a seamless virtual reality SVR platform for AD, which mitigates such inconsistency, enabling VR agents to interact with each other in a shared symbiotic world. The crux to SVR is an integrated synchronizer and synthesizer IS2 design, which consists of a drift-aware lidar-inertial synchronizer for VR colocation and a motion-aware deep visual synthesis network for augmented reality image generation. We implement SVR on car-like robots in two sandbox platforms, achieving a cm-level VR colocalization accuracy and 3.2% VR image deviation, thereby avoiding missed collisions or model clippings. Experiments show that the proposed SVR reduces the intervention times, missed turns, and failure rates compared to other benchmarks. The SVR-trained neural network can handle unseen situations in real-world environments, by leveraging its knowledge learnt from the VR space.
+
+![](./assets/VR.png)
+
+Details: https://arxiv.org/abs/2403.03541
+
+
+
+# NeuPAN: Direct Point Robot Navigation with End-to-End Model-based Learning
+
+ ![ubuntu](https://img.shields.io/badge/Device-LIMO%20Serires-blue.svg)| ![CobotMagic](https://img.shields.io/badge/Real%20time%20navigation-orange.svg) ![CobotMagic](https://img.shields.io/badge/NeuPAN-orange.svg)
+
+**Hardware device: LIMO**
+
+![](./assets/limo.png)
+
+**Abstract:**
+
+Navigating a nonholonomic robot in a cluttered environment requires extremely accurate perception and locomotion for collision avoidance. This paper presents NeuPAN: a real-time, highly-accurate, map-free, robot-agnostic, and environment-invariant robot navigation solution. Leveraging a tightly-coupled perception-locomotion framework, NeuPAN has two key innovations compared to existing approaches: 1) it directly maps raw points to a learned multi-frame distance space, avoiding error propagation from perception to control; 2) it is interpretable from an end-to-end model-based learning perspective, enabling provable convergence. The crux of NeuPAN is to solve a high-dimensional end-to-end mathematical model with various point-level constraints using the plug-and-play (PnP) proximal alternating-minimization network (PAN) with neurons in the loop. This allows NeuPAN to generate real-time, end-to-end, physically-interpretable motions directly from point clouds, which seamlessly integrates data- and knowledge-engines, where its network parameters are adjusted via back propagation. We evaluate NeuPAN on car-like robot, wheel-legged robot, and passenger autonomous vehicle, in both simulated and real-world environments. Experiments demonstrate that NeuPAN outperforms various benchmarks, in terms of accuracy, efficiency, robustness, and generalization capability across various environments, including the cluttered sandbox, office, corridor, and parking lot. We show that NeuPAN works well in unstructured environments with arbitrary-shape undetectable objects, making impassable ways passable.
+
+![](./assets/neupan.png)
+
+**[Details](NeuPAN.md)**
