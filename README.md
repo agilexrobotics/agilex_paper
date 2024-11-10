@@ -150,3 +150,24 @@ Navigating a nonholonomic robot in a cluttered environment requires extremely ac
 ![](./assets/neupan.png)
 
 **[Details](NeuPAN.md)**
+
+
+# AlignBot: Aligning VLM-powered Customized Task Planning with User Reminders Through Fine-Tuning for Household Robots
+
+ ![ubuntu](https://img.shields.io/badge/Device-Ranger%20mini%203.0-blue.svg)| ![CobotMagic](https://img.shields.io/badge/VLM-orange.svg) ![CobotMagic](https://img.shields.io/badge/LLaVA-7B-orange.svg) ![CobotMagic](https://img.shields.io/badge/GPT-4o-orange.svg)
+
+**Hardware device: Ranger Mini 3.0**
+
+![](./assets/rm3.png)
+
+**Abstract:**
+
+This paper presents AlignBot, a novel framework designed to optimize VLM-powered customized task planning for household robots by effectively aligning with user reminders. In domestic settings, aligning task planning with user reminders poses significant challenges due to the limited quantity, diversity, and multimodal nature of the reminder itself. To address these challenges, AlignBot employs a fine-tuned LLaVA-7B model, functioning as an adapter for GPT-4o. This adapter model internalizes diverse forms of user reminders—such as personalized preferences, corrective guidance, and contextual assistance—into structured that prompt GPT-4o in generating customized task plans. Additionally, AlignBot integrates a dynamic retrieval mechanism that selects relevant historical interactions as prompts for GPT-4o, further enhancing task planning accuracy. To validate the effectiveness of AlignBot, experiments are conducted in a real-world household environment. A multimodal dataset with 1,500 entries derived from volunteer reminder was used for training and evaluation. The results demonstrate that AlignBot significantly improves customized task planning, outperforming existing LLM- and VLM-powered planners by interpreting and aligning with user reminders, achieving 86.8% success rate compared to the vanilla GPT-4o baseline at 21.6%, reflecting 65% improvement and over four times greater effectiveness.
+
+![](./assets/AlignBot.png)
+
+![](./assets/alignbot2.png)
+
+**[Details](AlignBot.md)**
+
+
