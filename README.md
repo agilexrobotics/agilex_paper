@@ -1,7 +1,5 @@
 This repository collects the papers published based on AgileX devices, including paper links and project links.
 
-
-
 ## **RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins**
 
 ![ubuntu](https://img.shields.io/badge/Hardware%20Device-Cobot%20Magic-blue.svg)  ![CobotMagic](https://img.shields.io/badge/Diffusion%20Policy-orange.svg)
@@ -18,10 +16,6 @@ Effective collaboration of dual-arm robots and their tool use capabilities are i
 
 **[Details](RoboTwin.md)**
 
-
-
-
-
 # RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation
 
 ![ubuntu](https://img.shields.io/badge/Device-Cobot%20Magic-blue.svg)  ![CobotMagic](https://img.shields.io/badge/Robotics%20Diffusion%20Transformer-orange.svg)
@@ -37,10 +31,6 @@ Bimanual manipulation is essential in robotics, yet developing foundation models
 ![](./assets/head.png)
 
 **[Details](RDT.md)**
-
-
-
-
 
 # Mobile ALOHA
 
@@ -60,8 +50,6 @@ Imitation learning from human demonstrations has shown impressive performance in
 
 **[Details](MobileAloha.md)**
 
-
-
 # AToM-Bot: Embodied Fulfillment of Unspoken Human Needs with Affective Theory of Mind
 
 ![ubuntu](https://img.shields.io/badge/Device-Cobot%20S-blue.svg) | ![CobotMagic](https://img.shields.io/badge/Embodied%20Intelligence-orange.svg) ![AToM](https://img.shields.io/badge/VLM-orange.svg)![AToM](https://img.shields.io/badge/AToM-orange.svg)
@@ -78,12 +66,10 @@ We propose **AToM-Bot**, a novel task generation and execution framework for pro
 
 **[Details](AToM-Bot.md)**
 
-
-
 # iHERO: Interactive Human-oriented Exploration and Supervision Under Scarce Communication
 
 ![ubuntu](https://img.shields.io/badge/Device-LIMO%20Serires-blue.svg)
-![CobotMagic](https://img.shields.io/badge/Collaborative%20Exploration%20under%20Restricted%20Communication-orange.svg) 
+![CobotMagic](https://img.shields.io/badge/Collaborative%20Exploration%20under%20Restricted%20Communication-orange.svg)
 
 **Hardware device: LIMO**
 
@@ -96,8 +82,6 @@ Exploration of unknown scenes before human entry is essential for safety and eff
 ![](./assets/first_fig_large.png)
 
 **[Details](iHero.md)**
-
-
 
 # Optimal Control of Connected Automated Vehicles with Event-Triggered Control Barrier Functions: a Test Bed for Safe Optimal Merging
 
@@ -133,8 +117,6 @@ Virtual reality (VR) is a promising data engine for autonomous driving (AD). How
 
 Details: https://arxiv.org/abs/2403.03541
 
-
-
 # NeuPAN: Direct Point Robot Navigation with End-to-End Model-based Learning
 
  ![ubuntu](https://img.shields.io/badge/Device-LIMO%20Serires-blue.svg)| ![CobotMagic](https://img.shields.io/badge/Real%20time%20navigation-orange.svg) ![CobotMagic](https://img.shields.io/badge/NeuPAN-orange.svg)
@@ -150,7 +132,6 @@ Navigating a nonholonomic robot in a cluttered environment requires extremely ac
 ![](./assets/neupan.png)
 
 **[Details](NeuPAN.md)**
-
 
 # AlignBot: Aligning VLM-powered Customized Task Planning with User Reminders Through Fine-Tuning for Household Robots
 
@@ -170,4 +151,37 @@ This paper presents AlignBot, a novel framework designed to optimize VLM-powered
 
 **[Details](AlignBot.md)**
 
+# DexVLA: Vision-Language Model with Plug-In Diffusion Expert for General Robot Control
+ ![ubuntu](https://img.shields.io/badge/Device-Cobot%20magic-blue.svg)| ![CobotMagic](https://img.shields.io/badge/DexVLA-orange.svg) ![CobotMagic](https://img.shields.io/badge/VLA-orange.svg) 
 
+**Hardware device: Cobot Magic**
+
+![](./assets/cobotmagic.png)
+
+**Abstract:**
+
+Enabling robots to perform diverse tasks across varied environments is a central challenge in robot learning. While vision-language-action (VLA) models have shown promise for generalizable robot skills, realizing their full potential requires addressing limitations in action representation and efficient training. Current VLA models often focus on scaling the vision-language model (VLM) component, while the action space representation remains a critical bottleneck. This paper introduces DexVLA, a novel framework designed to enhance the efficiency and generalization capabilities of VLAs for complex, long-horizon tasks across diverse robot embodiments. DexVLA features a novel diffusion-based action expert, scaled to one billion parameters, designed for cross-embodiment learning. A novel embodiment curriculum learning strategy facilitates efficient training: (1) pre-training the diffusion expert that is separable from the VLA on cross-embodiment data, (2) aligning the VLA model to specific embodiments, and (3) post-training for rapid adaptation to new tasks. We conduct comprehensive experiments across multiple embodiments, including single-arm, bimanual, and dexterous hand, demonstrating DexVLA's adaptability to challenging tasks without task-specific adaptation, its ability to learn dexterous skills on novel embodiments with limited data, and its capacity to complete complex, long-horizon tasks using only direct language prompting, such as laundry folding. In all settings, our method demonstrates superior performance compared to state-of-the-art models like Octo, OpenVLA, and Diffusion Policy.
+
+![](./assets/DexVLA.png)
+
+**[Details](DexVLA.md)**
+
+
+
+# Vision-Based Fuzzy Control System for Smart Walkers: Enhancing Usability for Stroke Survivors with Unilateral Upper Limb Impairments
+
+![ubuntu](https://img.shields.io/badge/Device-Ranger%20Mini%203.0-blue.svg)| ![Ranger Mini 3.0](https://img.shields.io/badge/Fuzzyc%20control%20algorithm-orange.svg) 
+
+**Hardware device: Ranger Mini 3.0**
+
+![](./assets/rm3.png)
+
+**Abstract:**
+
+Mobility impairments, particularly those caused by stroke-induced hemiparesis, significantly impact independence and quality of life. Current smart walker controllers operate by using input forces from the user to control linear motion and input torques to dictate rotational movement; however, because they predominantly rely on user-applied torque exerted on the device handle as an indicator of user intent to turn, they fail to adequately accommodate users with unilateral upper limb impairments. This leads to increased physical strain and cognitive load. This paper introduces a novel smart walker equipped with a fuzzy control algorithm that leverages shoulder abduction angles to intuitively interpret user intentions using just one functional hand. By integrating a force sensor and stereo camera, the system enhances walker responsiveness and usability. Experimental evaluations with five participants showed that the fuzzy controller outperformed the traditional admittance controller, reducing wrist torque while using the right hand to operate the walker by 12.65\% for left turns, 80.36\% for straight paths, and 81.16\% for right turns. Additionally, average user comfort ratings on a Likert scale increased from 1 to 4. Results confirmed a strong correlation between shoulder abduction angles and directional intent, with users reporting decreased effort and enhanced ease of use. This study contributes to assistive robotics by providing an adaptable control mechanism for smart walkers, suggesting a pathway towards enhancing mobility and independence for individuals with mobility impairments.
+
+![](./assets/fuzzy1.png)
+
+![](./assets/fuzzy.png)
+
+**[Details](FuzzyControl.md)**
